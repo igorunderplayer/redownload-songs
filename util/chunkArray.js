@@ -1,5 +1,6 @@
 /**
  * @author 5antos#4876
+ * https://github.com/5antos/JS-Randomness
  * @param {any[]} array Array to be chunked
  * @param {number} count Length of each chunk
  * @returns {any[][]} Chunked array
