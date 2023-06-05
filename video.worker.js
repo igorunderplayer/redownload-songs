@@ -16,12 +16,9 @@ for await (const file of files) {
 
   let searchTerm = file
 
-
   if (data.tags.title) {
     searchTerm = `${data.tags.artist} - ${data.tags.title}`
   }
-
-  console.log(searchTerm)
 
   const [video] = (await yts(searchTerm.trim())).videos
 
